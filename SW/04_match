@@ -1,0 +1,114 @@
+#!/bin/python
+
+from random import seed, randint
+
+if __name__ == '__main__':
+    seed(1234)
+    a = 0
+    for _ in range(100000):
+        num = randint(0, 50)
+
+        match num:
+            case 0:
+                a += 0
+            case 1:
+                a += 1
+            case 2:
+                a += 2
+            case 3:
+                a += 3
+            case 4:
+                a += 4
+            case 5:
+                a += 5
+            case 6:
+                a += 6
+            case 7:
+                a += 7
+            case 8:
+                a += 8
+            case 9:
+                a += 9
+            case 10:
+                a += 10
+            case 11:
+                a += 11
+            case 12:
+                a += 12
+            case 13:
+                a += 13
+            case 14:
+                a += 14
+            case 15:
+                a += 15
+            case 16:
+                a += 16
+            case 17:
+                a += 17
+            case 18:
+                a += 18
+            case 19:
+                a += 19
+            case 20:
+                a += 20
+            case 21:
+                a += 21
+            case 22:
+                a += 22
+            case 23:
+                a += 23
+            case 24:
+                a += 24
+            case 25:
+                a += 25
+            case 26:
+                a += 26
+            case 27:
+                a += 27
+            case 28:
+                a += 28
+            case 29:
+                a += 29
+            case 30:
+                a += 30
+            case 31:
+                a += 31
+            case 32:
+                a += 32
+            case 33:
+                a += 33
+            case 34:
+                a += 34
+            case 35:
+                a += 35
+            case 36:
+                a += 36
+            case 37:
+                a += 37
+            case 38:
+                a += 38
+            case 39:
+                a += 39
+            case 40:
+                a += 40
+            case 41:
+                a += 41
+            case 42:
+                a += 42
+            case 43:
+                a += 43
+            case 44:
+                a += 44
+            case 45:
+                a += 45
+            case 46:
+                a += 46
+            case 47:
+                a += 47
+            case 48:
+                a += 48
+            case 49:
+                a += 49
+            case 50:
+                a += 50
+    print(a)

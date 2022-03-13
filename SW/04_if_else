@@ -1,0 +1,113 @@
+#!/bin/python
+
+from random import seed, randint
+
+if __name__ == '__main__':
+    seed(1234)
+    a = 0
+    for _ in range(100000):
+        num = randint(0, 50)
+
+        if num == 0:
+            a += 0
+        elif num == 1:
+            a += 1
+        elif num == 2:
+            a += 2
+        elif num == 3:
+            a += 3
+        elif num == 4:
+            a += 4
+        elif num == 5:
+            a += 5
+        elif num == 6:
+            a += 6
+        elif num == 7:
+            a += 7
+        elif num == 8:
+            a += 8
+        elif num == 9:
+            a += 9
+        elif num == 10:
+            a += 10
+        elif num == 11:
+            a += 11
+        elif num == 12:
+            a += 12
+        elif num == 13:
+            a += 13
+        elif num == 14:
+            a += 14
+        elif num == 15:
+            a += 15
+        elif num == 16:
+            a += 16
+        elif num == 17:
+            a += 17
+        elif num == 18:
+            a += 18
+        elif num == 19:
+            a += 19
+        elif num == 20:
+            a += 20
+        elif num == 21:
+            a += 21
+        elif num == 22:
+            a += 22
+        elif num == 23:
+            a += 23
+        elif num == 24:
+            a += 24
+        elif num == 25:
+            a += 25
+        elif num == 26:
+            a += 26
+        elif num == 27:
+            a += 27
+        elif num == 28:
+            a += 28
+        elif num == 29:
+            a += 29
+        elif num == 30:
+            a += 30
+        elif num == 31:
+            a += 31
+        elif num == 32:
+            a += 32
+        elif num == 33:
+            a += 33
+        elif num == 34:
+            a += 34
+        elif num == 35:
+            a += 35
+        elif num == 36:
+            a += 36
+        elif num == 37:
+            a += 37
+        elif num == 38:
+            a += 38
+        elif num == 39:
+            a += 39
+        elif num == 40:
+            a += 40
+        elif num == 41:
+            a += 41
+        elif num == 42:
+            a += 42
+        elif num == 43:
+            a += 43
+        elif num == 44:
+            a += 44
+        elif num == 45:
+            a += 45
+        elif num == 46:
+            a += 46
+        elif num == 47:
+            a += 47
+        elif num == 48:
+            a += 48
+        elif num == 49:
+            a += 49
+        elif num == 50:
+            a += 50
+    print(a)
